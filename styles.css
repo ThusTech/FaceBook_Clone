@@ -1,21 +1,18 @@
 :root{
-    --background-color: rgb(247, 243, 243);
+    --background-color: rgb(199, 184, 184);
 }
 
 .left-sidebar, .right-sidebar{
     margin-top: 15px;
-    margin-right:5px;
-    margin-left: 5px;
     background-color:var(--background-color);
     border-radius: 12px;
-    text-align: center;
 }
 
 .main-bar{
     margin-top: 15px;
     background-color: var(--background-color);
     border-radius: 12px;
-    text-align: center;
+    /* text-align: center; */
 }
 .btn, .form-control{
     border-radius: 20px;
@@ -23,9 +20,39 @@
 
 .logo-text{
     color:blue;
-    font-weight:1px solid;
+    font-weight:bold;
 }
 
 .navbar{
     border-radius: 5px;
 }
+
+.username{
+    font-weight: bold;
+}
+
+.left, .right{
+    background-color: blue;
+}
+
+.posts{
+    background-color: brown;
+    width:100%;
+    border-radius: 15px;
+}
+
+.postarea{
+    border-radius: 15px;
+}
+
+.feed{
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.user-info, .content{
+    background-color: #fff;
+    border-radius: 15px;
+}
+

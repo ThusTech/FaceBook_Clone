@@ -41,33 +41,50 @@
             </nav>
         </header>
 
-        <main>
+        <aside class="left">
+        </aside>
+
+        <main class="center">
             <div class="container">
                 <div class="row">
                     <div class="left-sidebar col">
-                        <div class="shortcuts">
-                            <ul>
-                                <li class="shortcut-item"><a>
-                                    <img>Friends</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Memories</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Saved</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Groups</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Video</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Marketplace</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Feeds</a></li>
-                                <li class="shortcut-item"><a>
-                                    <img>Events</a></li>
+                        <div clas="profile-shortcut">
+                                <img src="./static/profile.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                <span class="username">Thulani Amos Malaza</span>
+                        </div>
+
+                        <div class="menu">
+                            <ul class="menu-items">
+                                <li class="menu-item"><a>
+                                    <img src="./static/social-media.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                    Friends</a></li>
+                                <li class="menu-item"><a>
+                                    <img src="./static/media.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                    Marketplace</a></li>
+                                <li class="menu-item"><a>
+                                    <img src="./static/groups.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                    Groups</a></li>
+                                <li class="menu-item"><a>
+                                    <img src="./static/video.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                    Video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="main-bar col-6">
-                        MAIN BAR
+                        <div class="form-group">
+                            <form>
+                                <textarea class="form-control postarea" rows="3" placeholder="What's on your mind?"></textarea>
+                            </form>
+                        </div>
+                        <div class="feed">
+                            <div class="user-info">
+                                <img src="./static/profile.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                                <span class="user-info-username">Thulani Amos Malaza</span>
+                            </div>
+                            <div class="content">
+                                <p>content</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="right-sidebar col">
                         SIDE BAR
@@ -75,6 +92,9 @@
                 </div>
             </div>
         </main>
+
+        <aside class="right">
+        </aside>
 
         <footer>
 
