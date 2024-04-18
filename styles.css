@@ -1,16 +1,22 @@
 :root{
-    --background-color: rgb(199, 184, 184);
+    --background-color: rgb(243, 242, 242);
+    --card-color: white;
 }
 
-.left-sidebar, .right-sidebar{
+.left-sidebar, .right-sidebar, .main-bar{
     margin-top: 15px;
     background-color:var(--background-color);
     border-radius: 12px;
 }
 
+body{
+    background-color: var(--background-color);
+}
+
+
 .main-bar{
     margin-top: 15px;
-    background-color: var(--background-color);
+    background-color: var(--card-color);
     border-radius: 12px;
     /* text-align: center; */
 }
@@ -27,32 +33,11 @@
     border-radius: 5px;
 }
 
-.username{
+.username, .birthday-username{
     font-weight: bold;
 }
 
-.left, .right{
-    background-color: blue;
-}
-
-.posts{
-    background-color: brown;
-    width:100%;
-    border-radius: 15px;
-}
-
 .postarea{
-    border-radius: 15px;
-}
-
-.feed{
-    /* background-color: blueviolet; */
-    border-radius: 15px;
-    margin-top: 50px;
-}
-
-.user-info, .content{
-    background-color: #fff;
     border-radius: 15px;
 }
 
