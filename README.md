@@ -3,7 +3,6 @@
 A Simple Static single Facebook page.
 
 ## Tools and Libraries
-===================
 * HTML
 * CSS
 * Bootstrap
