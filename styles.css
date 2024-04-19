@@ -37,7 +37,14 @@ body{
     font-weight: bold;
 }
 
-.postarea{
+.postarea, .card{
     border-radius: 15px;
+}
+
+a:hover{
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 10px 20px 25px 8px;
+    text-decoration-line: none;
 }
 
