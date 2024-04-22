@@ -3,6 +3,17 @@
     --card-color: white;
 }
 
+@media (max-width:768px) {
+    .left-sidebar, .right-sidebar, .navbar-logo, .menu{
+        display: none;
+    }
+    .search-btn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 .left-sidebar, .right-sidebar, .main-bar{
     margin-top: 15px;
     border-radius: 12px;
@@ -31,7 +42,6 @@ body{
     max-height: 600px;
     scrollbar-width: thin;
 }
-
 
 .main-bar{
     margin-top: 15px;
@@ -62,8 +72,43 @@ body{
     margin-left: auto;
 }
 
-.postarea, .card, .story-feed, .input-section{
+.postarea, .card, .input-section{
     border-radius: 15px;
+}
+
+.story-feed{
+    position: relative;
+    border-radius: 15px;
+    width:125px;
+    height:235px;
+}
+
+.story-feed:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.story{
+    overflow-x:scroll;
+    overflow-y: hidden;
+    max-width: 100%;
+    scrollbar-width: thin;
+}
+
+.feed-name{
+    position: relative;
+    top: 70%;
+    left: 10%;
+    color:bisque;
+    font-weight: lighter;
+}
+
+.feed-profile{
+    position: absolute;
+    border: 3px solid rgb(6, 63, 218);
+    left: 10%;
+    top: 5%;
 }
 
 .item:hover{
