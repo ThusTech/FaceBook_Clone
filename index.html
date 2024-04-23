@@ -16,39 +16,49 @@
     </head>
     <body>
         <header class="p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between">
-                <a class="navbar-logo" href="#">
-                    <img src="./static/icon.png" width="40" height="40" class="d-inline-block" alt="">
-                    <span class="logo-text">facebook</span>
-                </a>
-                
-                <form class="search-btn form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search Facebook" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+            <nav class="computer-nav navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid  d-flex justify-content-between">
+                    <a class="navbar-logo" href="#">
+                        <img src="./static/icon.png" width="40" height="40" class="d-inline-block" alt="">
+                        <span class="logo-text">facebook</span>
+                    </a>
 
-                <div class="menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            
-                            <a class="nav-link dropdown-toggle py-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="./static/pictures/profile-images/profile-picture.jpg" width="40" height="40" class="rounded-circle" alt="">
-                                settings
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">update profile</a>
-                            </div>
-                        </li>
-                    </ul>
+                    <form class="search-btn form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Facebook" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+
+                    <div class="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropleft">
+                                
+                                <a class="nav-link dropdown-toggle py-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="./static/pictures/profile-images/profile-picture.jpg" width="40" height="40" class="rounded-circle" alt="">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">update profile</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                
+            </nav>
+            <nav class="mobile-nav navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container d-flex">
+                    <a href="#"><img src="./static/home (1).png" class="" width="40" height="40"></a>
+                    <a href="#"><img src="./static/video (1).png" class="" width="40" height="40"></a>
+                    <a href="#"><img src="./static/market.png" class="" width="40" height="40"></a>
+                    <a href="#"><img src="./static/friends.png" class="" width="40" height="40"></a>
+                    <a href="#"><img src="./static/profile.png" class="" width="40" height="40"></a>
+                </div>
             </nav>
         </header>
 
-        <main class="center">
+        <main class="center mt-4">
             <div class="container-fluid mx-2">
                 <div class="row">
-                    <div class="left-sidebar col-3 overflow-scroll">
+                    <!-- LEFT SIDEBAR -->
+                    <div class="left-sidebar col-md-3 overflow-scroll">
                         <div class="d-flex">
                             <img src="./static/pictures/profile-images/profile-picture.jpg" width="50%" height="50%" class="d-inline-block rounded-circle ml-5" alt="">
                             <span class="username mt-2 ml-2">Thulani Amos Malaza</span>
@@ -107,7 +117,8 @@
                         </ul>
                     </div>
 
-                    <div class="main-bar bg-transparent col-sm-6 overflow-scroll"> 
+                    <!-- Main  -->
+                    <div class="main-bar bg-transparent overflow-scroll col-md-6"> 
                         <div class="stories container-fluid mb-5">
                             <div class="row">
                                 <div class="story col d-flex justify-content-between">
@@ -135,7 +146,7 @@
                             <div class="input-section bg-white p-1 mb-3">
                                 <form >
                                     <div class="form-group my-2">
-                                        <textarea class="form-control postarea" rows="2" placeholder="What's on your mind?"></textarea>
+                                        <textarea class="form-control postarea" rows="2" placeholder="What's on your mind, Thulani?"></textarea>
                                         <div class="d-flex">
                                             <input type="file" class="form-control-file form-control-file-sm" id="photo-video" accept="image/*, video/*">
                                             <button type="submit" class="btn btn-primary">Post</button>
@@ -267,8 +278,8 @@
                         </div>
                     </div>
 
-
-                    <div class="right-sidebar col-3 overflow-scroll">
+                    <!-- RIGHT SIDEBAR -->
+                    <div class="right-sidebar col-md-3">
                         <div class="card bg-transparent mb-3 mr-5" style="max-width: 25rem;">
                             <div class="card-body">
                               <h5 class="card-title">Birthdays</h5>
@@ -303,6 +314,30 @@
                                             <p class="text-right">Goodman Vincent</p>
                                         </a>
                                     </li>
+                                    <li class="list-group-item">
+                                        <a href="#" class="item d-flex p-0">
+                                            <img src="./static/avatar.png" width="25" height="25" class="d-inline-block align-top mx-2" alt="">
+                                            <p class="text-right">Mavela Hezekiel Xakwa</p>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#" class="item d-flex p-0">
+                                            <img src="./static/avatar.png" width="25" height="25" class="d-inline-block align-top mx-2" alt="">
+                                            <p class="text-right">Anga viola Xakwa</p>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#" class="item d-flex p-0">
+                                            <img src="./static/avatar.png" width="25" height="25" class="d-inline-block align-top mx-2" alt="">
+                                            <p class="text-right">Thulani Thyaphile</p>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#" class="item d-flex p-0">
+                                            <img src="./static/avatar.png" width="25" height="25" class="d-inline-block align-top mx-2" alt="">
+                                            <p class="text-right">Annelah Ndlovu</p>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -313,7 +348,7 @@
 
         <footer class="d-flex justify-content-between bg-white mt-5">
             <a class="mr-5" href="#">About Us</a>
-            <a href="#">Contact Us</a>
+            <a class="" href="#">Contact Us</a>
             <a class="ml-5" href="#">Terms of Use</a>
         </footer>
 

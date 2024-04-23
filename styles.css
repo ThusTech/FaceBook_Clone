@@ -4,13 +4,9 @@
 }
 
 @media (max-width:768px) {
-    .left-sidebar, .right-sidebar, .navbar-logo, .menu{
+    .left-sidebar, .right-sidebar, .navbar-logo, .menu, .computer-nav{
         display: none;
-    }
-    .search-btn{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        width: 0;
     }
 }
 
