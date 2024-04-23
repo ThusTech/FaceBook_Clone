@@ -24,6 +24,10 @@ Follow these steps to run the HTML file:
 * Open the HTML file: Double-click the HTML file to open it in your default web browser.
 * View the HTML content: The HTML file should now be displayed in your web browser, allowing you to view and interact with its content.
 
+## Features:
+## Bugs:
+
+
 ## Additional Notes
 If you encounter any issues or errors while running the HTML file, ensure that  your web browser is up to date and supports HTML5 features.
 
